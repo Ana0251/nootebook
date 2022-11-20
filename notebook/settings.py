@@ -82,8 +82,10 @@ WSGI_APPLICATION = 'notebook.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'notebook_620w',
+        'USER': 'ana0251'
+        'PASSWORD': 'WoNjtAd7rb82TupMGJSKTN9jAMp9XVVI'
     }
 }
 
