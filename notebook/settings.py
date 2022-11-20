@@ -88,7 +88,8 @@ DATABASES = {
         'PASSWORD': 'WoNjtAd7rb82TupMGJSKTN9jAMp9XVVI'
     }
 }
-
+DATABASE_URL = 'postgres://ana0251:WoNjtAd7rb82TupMGJSKTN9jAMp9XVVI@dpg-cdt39a02i3mrfog81270-a/notebook_620w'
+WEB_CONCURRENCY = '4'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
